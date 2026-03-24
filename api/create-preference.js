@@ -30,7 +30,7 @@ if (req.method === "OPTIONS") {
         payer: {
           email: email
         },
-       external_reference: `${nome}|${email}|${whatsapp}`,
+       external_reference: `${nome}|${email}|${whatsapp}|${perfil}`,
         notification_url: "https://hook.eu1.make.com/jpxz28gwlijsxmrkybfmmhiw7u1liek9",
         back_urls: {
           success: "https://62984254753.github.io/site-advogado/obrigado.html",
